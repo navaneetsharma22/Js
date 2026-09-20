@@ -83,18 +83,39 @@
 
 //check Grade 
 
-let marks = prompt("Enter your marks");
-if(marks >=80 && marks <= 100){
-    console.log("Grade A");
-}else if(marks >= 70 && marks <80){
-    console.log("Grade B");
-}else if(marks >= 60 && marks < 69){
-    console.log("Grade C");
-}else if(marks >= 50 && marks < 59){
-    console.log("Grade D");
-}else if(marks >= 30 && marks < 49){
-    console.log("Grade F");
-}else{
-    console.log("Fail");
-}
-    
+// let marks = prompt("Enter your marks");
+// if(marks >=80 && marks <= 100){
+//     console.log("Grade A");
+// }else if(marks >= 70 && marks <80){
+//     console.log("Grade B");
+// }else if(marks >= 60 && marks < 69){
+//     console.log("Grade C");
+// }else if(marks >= 50 && marks < 59){
+//     console.log("Grade D");
+// }else if(marks >= 30 && marks < 49){
+//     console.log("Grade F");
+// }else{
+//     console.log("Fail");
+// }
+
+
+
+
+    // 
+    //  loops 
+    // //FOR LOOP 
+
+    // let num= prompt("Enter a number");
+
+    // for (let count = 1 ; count <= num ; count++
+    // ){
+    //     console.log(count);
+    // }
+
+
+    // for of loop 
+
+    let str = "Navaneet_Sharma";
+    for (let i of str ){
+        console.log("i =", i);
+    }
