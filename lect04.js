@@ -17,9 +17,9 @@
 //     console.log(hero);
 // }
 
-let marks = [85,97,44,37,76,60];
-let sum = 0;
-let avg = 0;
+// let marks = [85,97,44,37,76,60];
+// let sum = 0;
+// let avg = 0;
 
 // for(let  i =0; i<marks.length; i++){
 //     sum = sum + marks[i];
@@ -46,3 +46,21 @@ let avg = 0;
 //     items[i] = items[i]-offer;
 // }
 // console.log(items);
+
+// let   foodItems = ["Pizza", "Burger", "Pasta", "Biryani", "Dosa"];
+// console.log(foodItems);
+// foodItems.push("Ice Cream , khoaa");
+// console.log(foodItems);
+
+// function sum (a,b){
+//     let s= a+b;
+//     return s;
+// }
+// let val = sum(10,20);
+// console.log(val);
+
+let sum = (a  , b) => {
+    console.log(a+b);
+}
+
+sum(10,20);
