@@ -127,5 +127,52 @@
 // console.log(output);
 
 
+//finding largest   number using    reduce method
 
+// let arr = [ 45, 65, 35, 25, 15, 5];
+
+//  let largest = arr.reduce((prev, curr) => {
+//     return prev > curr   ? prev: curr;
+
+// })
+
+// console.log(largest);
+
+
+// let arr = [55, 77 ,  98 ,  95,99,93,92,77,8,1,56,92];
+
+// let  maxMarks  =  arr.filter((val) => {
+//     return val > 90;
+
+// })
+
+
+// console.log(maxMarks);
+
+
+let n  = prompt  (" enter  a number   : ");
+
+let  arr  = [];
+
+for(let i = 1 ; i<=n  ;  i++  ){
+    arr[i-1]  =  i ;
+
+}
+console.log(arr);
+
+let  sum  =   arr.reduce((prev ,curr ) => {
+    return prev+curr
+})
+
+console.log(sum);
+
+
+
+
+
+let mul = arr.reduce((prev,curr) =>  {
+    return  prev*curr
+})
+
+console.log(` this is  the  multiply of all N numbers  of array ${mul}`);
 
