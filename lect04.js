@@ -118,11 +118,14 @@
 //  console.log(oddNumbers);
 
 
-let arr = [25,85,77];
+// let arr = [25,85,77];
 
-const output =  arr.reduce((prev,curr)=> {
-    return prev + curr;
-}, 0);
+// const output =  arr.reduce((prev,curr)=> {
+//     return prev + curr;
+// }, 0);
 
-console.log(output);
+// console.log(output);
+
+
+
 
