@@ -89,6 +89,21 @@
 
 // let calculateSum = (val) => {
 //     console.log(val* val )
-// }
+//}
 
 // arr.forEach(calculateSum);
+
+
+
+// map method
+
+let nums = [10,20,30,40,50,60,70,80,90,100];
+
+ let newNums = nums.map((val )  => {
+    console.log(val  * 5  );
+
+})
+
+console.log(nums);
+
+
