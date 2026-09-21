@@ -59,8 +59,36 @@
 // let val = sum(10,20);
 // console.log(val);
 
-let sum = (a  , b) => {
-    console.log(a+b);
-}
+// let sum = (a  , b) => {
+//     console.log(a+b);
+// }
 
-sum(10,20);
+// sum(10,20);
+
+
+// function countVowels(str){
+//     let count =0;
+//     for(let char of str){
+//         if (char ==="a"||  char === 'e' || char === 'i' || char === 'o' || char === 'u'){
+//             count ++;
+
+//         }
+//     }
+
+//     return count;
+// }
+
+
+// let arr = [58,85,95,45,75,65,35,25,15,5];
+
+// // arr.forEach((val) =>{
+// //     console.log(val* val);
+
+// // } )
+
+
+// let calculateSum = (val) => {
+//     console.log(val* val )
+// }
+
+// arr.forEach(calculateSum);
