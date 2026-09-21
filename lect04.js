@@ -97,13 +97,32 @@
 
 // map method
 
-let nums = [10,20,30,40,50,60,70,80,90,100];
+// let nums = [10,20,30,40,50,60,70,80,90,100];
 
- let newNums = nums.map((val )  => {
-    console.log(val  * 5  );
+//  let newNums = nums.map((val )  => {
+//     console.log(val  * 5  );
 
-})
+// })
 
-console.log(nums);
+// console.log(nums);
 
+//Filter method
+// let arr = [25,6,7,8,9,10,11,12,13,14,15];
+
+// let oddNumbers =  arr.filter((val) => {
+//     return  val %  2 === 1;
+
+//  });
+
+
+//  console.log(oddNumbers);
+
+
+let arr = [25,85,77];
+
+const output =  arr.reduce((prev,curr)=> {
+    return prev + curr;
+}, 0);
+
+console.log(output);
 
