@@ -115,7 +115,44 @@
 
     // for of loop 
 
-    let str = "Navaneet_Sharma";
-    for (let i of str ){
-        console.log("i =", i);
-    }
+    // let str = "Navaneet_Sharma";
+    // let size = 0;
+
+    // for (let i of str ){
+    //     console.log("i =", i);
+    //     size++;
+    // }
+
+    // console.log("size of string is ", size);
+
+
+
+    // const student ={
+    // fullName: "Rahul kumar ",
+    // age: 22,        
+    // cgpa:8.5,
+    // ispass : true
+    // }
+
+    // for (let key in student){
+    //     console.log( " key ",    key, " Value ", student[key]);
+
+    // }
+
+
+
+// let gameNum = 25;
+// let userNum = Number(prompt("guess the number between 1 to 50"));
+
+// while (userNum !== gameNum) {
+//     userNum = Number(prompt("wrong guess! guess the number between 1 to 50"));
+// }
+
+// console.log("Congratulations! You are correct. The number is ", gameNum);
+
+
+let fullName = prompt("Enter your full name");
+
+let userName =  "@"+ fullName + fullName.length;
+
+console.log( "Your username is: ",userName);
