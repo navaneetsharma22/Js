@@ -28,12 +28,21 @@ let avg = 0;
 // console.log(sum);
 // console.log(avg);
 
-for(let val of marks){
-        console.log(val);
-        sum = sum + val;
+// for(let val of marks){
+//         console.log(val);
+//         sum = sum + val;
 
 
-}
-console.log(`The sum  of  marks is   :  ${sum}`);
-avg = sum / marks.length;
-console.log(`Average marks is : ${avg}`);
+// }
+// console.log(`The sum  of  marks is   :  ${sum}`);
+// avg = sum / marks.length;
+// console.log(`Average marks is : ${avg}`);
+
+
+// let items = [250,645,300,900,50];
+
+// for (let  i=0;  i<items.length; i++){
+//     let   offer=items[i]/10;
+//     items[i] = items[i]-offer;
+// }
+// console.log(items);
