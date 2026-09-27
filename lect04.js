@@ -144,35 +144,35 @@
 // let  maxMarks  =  arr.filter((val) => {
 //     return val > 90;
 
+// // })
+
+
+// // console.log(maxMarks);
+
+
+// let n  = prompt  (" enter  a number   : ");
+
+// let  arr  = [];
+
+// for(let i = 1 ; i<=n  ;  i++  ){
+//     arr[i-1]  =  i ;
+
+// }
+// console.log(arr);
+
+// let  sum  =   arr.reduce((prev ,curr ) => {
+//     return prev+curr
 // })
 
-
-// console.log(maxMarks);
-
-
-let n  = prompt  (" enter  a number   : ");
-
-let  arr  = [];
-
-for(let i = 1 ; i<=n  ;  i++  ){
-    arr[i-1]  =  i ;
-
-}
-console.log(arr);
-
-let  sum  =   arr.reduce((prev ,curr ) => {
-    return prev+curr
-})
-
-console.log(sum);
+// console.log(sum);
 
 
 
 
 
-let mul = arr.reduce((prev,curr) =>  {
-    return  prev*curr
-})
+// let mul = arr.reduce((prev,curr) =>  {
+//     return  prev*curr
+// })
 
-console.log(` this is  the  multiply of all N numbers  of array ${mul}`);
+// console.log(` this is  the  multiply of all N numbers  of array ${mul}`);
 
