@@ -1,4 +1,24 @@
-let number = prompt("Enter a number");
-let square = number * number;
+let firstNumber = Number(prompt("Enter the first number"));
+let operator = prompt("Enter an operator: +, -, *, or /");
+let secondNumber = Number(prompt("Enter the second number"));
+let result;
 
-console.log(`The square of ${number} is ${square}`);
+if (Number.isNaN(firstNumber) || Number.isNaN(secondNumber)) {
+	console.log("Please enter valid numbers");
+} else if (operator === "+") {
+	result = firstNumber + secondNumber;
+} else if (operator === "-") {
+	result = firstNumber - secondNumber;
+} else if (operator === "*") {
+	result = firstNumber * secondNumber;
+} else if (operator === "/" && secondNumber !== 0) {
+	result = firstNumber / secondNumber;
+} else if (operator === "/" && secondNumber === 0) {
+	console.log("Cannot divide by zero");
+} else {
+	console.log("Please enter a valid operator");
+}
+
+if (result !== undefined) {
+	console.log(`${firstNumber} ${operator} ${secondNumber} = ${result}`);
+}
